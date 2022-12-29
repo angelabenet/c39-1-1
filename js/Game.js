@@ -208,11 +208,11 @@ class Game {
 
   handleResetButton() {
     this.resetButton.mousePressed(() => {
-      database.ref("/").set({
-        playerCount: 0,
-        gameState: 0,
-        players: {},
-        carsAtEnd: 0
+
+
+         //COMPLETE O CÓDIGO PARA RESETAR OS DADOS 
+      
+
       });
       window.location.reload();
     });
